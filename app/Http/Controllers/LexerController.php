@@ -23,10 +23,15 @@ class LexerController extends Controller
 
     private function component_lexico($input)
     {
-        // Define los patrones para tokens
+        // Define los patrones para tokens con expresiones regulares
         $patterns = [
             '/\bif\b/i' => 'IF_KEYWORD',
             '/\belse\b/i' => 'ELSE_KEYWORD',
+            '/\bfor\b/i' => 'FOR_KEYWORD',
+            '/\bwhile\b/i' => 'WHILE_KEYWORD',
+            '/\bforeach\b/i' => 'FOREACH_KEYWORD',
+            '/\b,\b/i' => 'END_OPERATOR',
+            '/\b;\b/i' => 'END_OPERATOR',
             '/[a-zA-Z]\w*/' => 'IDENTIFIER',
             '/[><=]/' => 'COMPARISON_OPERATOR',
             '/\d+/' => 'NUMBER',
