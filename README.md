@@ -34,7 +34,7 @@ cp .env.example .env
 5. Ejecuta el servidor de desarrollo de Laravel:
 php artisan serve
 
-6. Accede a http://127.0.0.1:8000/analizador-lexico en tu navegador para usar la aplicación.
+6. Accede a http://127.0.0.1:8000 en tu navegador para usar la aplicación.
 
 Contribución
 Si deseas contribuir a este proyecto, siéntete libre de hacer un fork, realizar tus cambios y enviar un pull request.
