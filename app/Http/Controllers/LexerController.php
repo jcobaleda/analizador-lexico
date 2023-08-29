@@ -16,12 +16,12 @@ class LexerController extends Controller
     {
         $input = $request->input('expression');
 
-        $tokens = $this->componenr_lexico($input);
+        $tokens = $this->component_lexico($input);
 
         return view('lexer.result', compact('tokens'));
     }
 
-    private function componenr_lexico($input)
+    private function component_lexico($input)
     {
         // Define los patrones para tokens
         $patterns = [
