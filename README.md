@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# Analizador Léxico en Laravel
+# Analizador Léxico y sintactico en Laravel
 
 Este proyecto es un ejemplo de un analizador léxico simple implementado en Laravel. Permite analizar expresiones que contienen "if" y "else", junto con operadores y valores.
 
